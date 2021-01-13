@@ -1,20 +1,29 @@
-import React from "react"
+import React from "react";
 
-/**
- * Podendo passar mais de uma prop
- */
-
-function Welcome(props){
-  return <h1>Olá {props.name}!</h1>
+function Avatar(props) {
+  return (
+    <div>
+      <img src={props.user.url} alt={props.user.name} />
+      <br />
+      <span>{props.user.name}</span>
+    </div>
+  );
 }
 
+
 function Props() {
+  let user = {
+    url: "https://www.google.com.br/google.jpg",
+    name: "Matheus Paulino"
+  };
+
   return (
     <>
-      <Welcome name="Matheus" />
-      <Welcome name="Fulano"/>
+      <Avatar
+        user={user}
+      />
     </>
-  )
+  );
 }
 
 export default Props;
