@@ -1,12 +1,13 @@
+import React from "react"
+import Props from './Props'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Hello world</p>
-      </header>
-    </div>
-  );
+    <>
+      <Props />
+    </>
+  )
 }
 
 export default App;
