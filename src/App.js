@@ -2,6 +2,7 @@ import React from "react"
 import Props from './Props'
 import StyledComponents from "./StyledComponents";
 import UseState from './useState'
+import UseStateForInput from "./useStateForInput";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Props />
       <StyledComponents />
       <UseState />
+      <UseStateForInput />
     </>
   );
 }
