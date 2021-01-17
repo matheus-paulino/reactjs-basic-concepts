@@ -5,6 +5,7 @@ import StyledComponents from "./StyledComponents";
 import UseState from './useState'
 import UseStateForInput from "./useStateForInput";
 import ConditionalDisplay from './ConditionalDisplay'
+import UseEffectComponent from "./useEffectComponent";
 
 function App() {
   return (
@@ -13,8 +14,10 @@ function App() {
       <StyledComponents />
       <UseState />
       <UseStateForInput />
-      */} 
+       
       <ConditionalDisplay />
+      */}
+      <UseEffectComponent  />
     </>
   );
 }
