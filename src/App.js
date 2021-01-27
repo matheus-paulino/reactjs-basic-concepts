@@ -6,6 +6,7 @@ import UseState from './useState'
 import UseStateForInput from "./useStateForInput";
 import ConditionalDisplay from './ConditionalDisplay'
 import UseEffectComponent from "./useEffectComponent";
+import TaskList from "./TaskList";
 
 function App() {
   return (
@@ -14,10 +15,10 @@ function App() {
       <StyledComponents />
       <UseState />
       <UseStateForInput />
-       
       <ConditionalDisplay />
-      */}
       <UseEffectComponent  />
+      */}
+      <TaskList />
     </>
   );
 }
